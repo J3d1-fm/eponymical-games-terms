@@ -9,6 +9,10 @@ Hosting:
 - GitHub repository: https://github.com/J3d1-fm/eponymical-games-terms
 - GitHub Pages source: main branch, repository root.
 - Custom domain file: CNAME contains terms.eponymicalgames.com.
+- GitHub Pages API status on 2026-06-27: built.
+- GitHub Pages custom domain on 2026-06-27: terms.eponymicalgames.com.
+- GitHub Pages HTTPS enforcement on 2026-06-27: false, pending DNS resolution
+  and certificate issuance.
 
 DNS requirement:
 - Add CNAME record:
@@ -18,4 +22,3 @@ DNS requirement:
 
 Canonical fallback:
 - https://eponymicalgames.com/terms-of-service.html
-
