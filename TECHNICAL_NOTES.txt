@@ -1,0 +1,21 @@
+Eponymical Games terms subdomain technical notes
+
+Purpose:
+- Serve the Terms of Service at https://terms.eponymicalgames.com/.
+- The source page is copied from the canonical website repo:
+  /Users/phil/Documents/Codex Projects/eponymical-games/terms-of-service.html
+
+Hosting:
+- GitHub repository: https://github.com/J3d1-fm/eponymical-games-terms
+- GitHub Pages source: main branch, repository root.
+- Custom domain file: CNAME contains terms.eponymicalgames.com.
+
+DNS requirement:
+- Add CNAME record:
+  terms.eponymicalgames.com -> j3d1-fm.github.io
+- On 2026-06-27 this DNS record was not present, so the subdomain did not
+  resolve even though the Pages repository was prepared.
+
+Canonical fallback:
+- https://eponymicalgames.com/terms-of-service.html
+
