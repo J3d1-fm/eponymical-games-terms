@@ -11,14 +11,17 @@ Hosting:
 - Custom domain file: CNAME contains terms.eponymicalgames.com.
 - GitHub Pages API status on 2026-06-27: built.
 - GitHub Pages custom domain on 2026-06-27: terms.eponymicalgames.com.
-- GitHub Pages HTTPS enforcement on 2026-06-27: false, pending DNS resolution
-  and certificate issuance.
+- GitHub Pages HTTPS enforcement on 2026-06-27: false, pending certificate
+  issuance.
 
-DNS requirement:
-- Add CNAME record:
+DNS:
+- Squarespace DNS record added on 2026-06-27:
   terms.eponymicalgames.com -> j3d1-fm.github.io
-- On 2026-06-27 this DNS record was not present, so the subdomain did not
-  resolve even though the Pages repository was prepared.
+- Authoritative and public DNS resolved this CNAME on 2026-06-27.
+- http://terms.eponymicalgames.com/ returned HTTP 200 from GitHub Pages on
+  2026-06-27.
+- https://terms.eponymicalgames.com/ was not ready immediately after DNS was
+  added because GitHub had not issued the certificate yet.
 
 Canonical fallback:
 - https://eponymicalgames.com/terms-of-service.html

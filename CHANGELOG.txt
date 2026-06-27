@@ -8,8 +8,10 @@
   Policy URL until the sibling privacy subdomain has DNS and HTTPS ready.
 - Enabled GitHub Pages from the main branch repository root. GitHub reports the
   Pages build as built and the custom domain as terms.eponymicalgames.com.
-- DNS is still missing; add the terms CNAME record before relying on this URL in
-  production app metadata or first-launch legal links.
+- Added the Squarespace DNS CNAME record for terms.eponymicalgames.com to
+  j3d1-fm.github.io.
+- Verified authoritative and public DNS resolution plus HTTP 200 from GitHub
+  Pages. HTTPS is still pending GitHub Pages certificate issuance.
 
 Rollback:
 - Use the canonical website Terms of Service at
