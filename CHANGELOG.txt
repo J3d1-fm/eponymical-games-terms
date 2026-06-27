@@ -4,6 +4,8 @@
 - Added full Terms of Service HTML, CNAME, README and technical notes.
 - Internal navigation points to absolute canonical URLs so the subdomain page
   does not depend on sibling files.
+- The inline and footer Privacy Policy links point to the canonical live Privacy
+  Policy URL until the sibling privacy subdomain has DNS and HTTPS ready.
 - Enabled GitHub Pages from the main branch repository root. GitHub reports the
   Pages build as built and the custom domain as terms.eponymicalgames.com.
 - DNS is still missing; add the terms CNAME record before relying on this URL in
