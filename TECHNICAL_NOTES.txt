@@ -3,7 +3,7 @@ Eponymical Games terms subdomain technical notes
 Purpose:
 - Serve the Terms of Service at https://terms.eponymicalgames.com/.
 - The source page is copied from the canonical website repo:
-  /Users/phil/Documents/Codex Projects/eponymical-games/terms-of-service.html
+  /Users/phil/CodexProjects/eponymical-games/terms-of-service.html
 
 Hosting:
 - GitHub repository: https://github.com/J3d1-fm/eponymical-games-terms
